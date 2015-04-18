@@ -1,6 +1,9 @@
 
-declare module "di-ts" {
-  import diTS from "./index"
+/// <reference path="index.d.ts"/>
 
-  export = diTS
+declare module "di-ts" {
+
+  export var Injector: typeof di.Injector;
+  export function Inject(classFunc: any): void;
+  export function Provide(targetClassFunc: any): (classFunc: any) => void;
 }
