@@ -32,7 +32,7 @@ export class MockEngine {
 
 ### main.ts
 ```typescript
-/// <reference path="node_modules/di-ts/index.d.ts"/>
+/// <reference path="node_modules/di-ts/di-ts.d.ts"/>
 
 import {Injector} from 'di-ts'
 import {Car} from './car'
