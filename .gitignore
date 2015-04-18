@@ -3,6 +3,7 @@ node_modules
 *.js
 *.js.map
 typings
+spec/*.d.ts
 
 !Gruntfile.js
 !index.js
