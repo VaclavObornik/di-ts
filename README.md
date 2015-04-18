@@ -40,14 +40,11 @@ import {Engine, MockEngine} from './engine'
 
 
 var injector = new Injector();
-var car: Car = injector.get(Car); //instantiate car
-
-//now car.engine is instance of Engine
+var car: Car = injector.get(Car); //instantiate car, car.engine is magically instance of Engine! :)
 
 
 var injector2 = new Injector([MockEngine]);
-var car2: Car = injector2.get(Car); //instantiate car
-//now car.engine is instance of MockEngine! :)
+var car2: Car = injector2.get(Car); //instantiate car, car.engine is instance of MockEngine! :)
 ```
 
 
