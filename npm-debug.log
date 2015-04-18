@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodist/v/0.12.0/node.exe',
+1 verbose cli   'C:\\Program Files\\nodist\\bin\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.6
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodist/v/0.12.0/node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\the.ufon\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\THE~1.UFO\\AppData\\Local\\Temp\\npm-6356-RPU3VxHi\\1429345561745-0.7825124266091734\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+13 verbose folder .
+14 info prepublish di.ts@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\the.ufon\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 345c845a-61745-0-7825124266091734-tmp-tgz tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+18 verbose lock tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz C:\Users\the.ufon\AppData\Roaming\npm-cache\345c845a-61745-0-7825124266091734-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 345c845a-61745-0-7825124266091734-tmp-tgz tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+22 silly lockFile 345c845a-61745-0-7825124266091734-tmp-tgz tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+23 verbose tar unpack C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+24 silly lockFile 25205c2d-61745-0-7825124266091734-package tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+25 verbose lock tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package C:\Users\the.ufon\AppData\Roaming\npm-cache\25205c2d-61745-0-7825124266091734-package.lock
+26 silly lockFile 345c845a-61745-0-7825124266091734-tmp-tgz tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+27 verbose lock tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz C:\Users\the.ufon\AppData\Roaming\npm-cache\345c845a-61745-0-7825124266091734-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry Gruntfile.js
+36 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry di.d.ts
+38 silly gunzTarPerm modified mode [ 'di.d.ts', 438, 420 ]
+39 silly gunzTarPerm extractEntry index.ts
+40 silly gunzTarPerm modified mode [ 'index.ts', 438, 420 ]
+41 silly gunzTarPerm extractEntry spec/fixtures.ts
+42 silly gunzTarPerm modified mode [ 'spec/fixtures.ts', 438, 420 ]
+43 silly gunzTarPerm extractEntry spec/main.ts
+44 silly gunzTarPerm modified mode [ 'spec/main.ts', 438, 420 ]
+45 silly gunzTarPerm extractEntry tsd.json
+46 silly gunzTarPerm modified mode [ 'tsd.json', 438, 420 ]
+47 silly lockFile 25205c2d-61745-0-7825124266091734-package tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+48 silly lockFile 25205c2d-61745-0-7825124266091734-package tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+49 silly lockFile 345c845a-61745-0-7825124266091734-tmp-tgz tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+50 silly lockFile 345c845a-61745-0-7825124266091734-tmp-tgz tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\tmp.tgz
+51 verbose tar pack [ 'C:\\Users\\the.ufon\\AppData\\Roaming\\npm-cache\\di.ts\\0.0.1\\package.tgz',
+51 verbose tar pack   'C:\\Users\\THE~1.UFO\\AppData\\Local\\Temp\\npm-6356-RPU3VxHi\\1429345561745-0.7825124266091734\\package' ]
+52 verbose tarball C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+53 verbose folder C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+54 silly lockFile 25205c2d-61745-0-7825124266091734-package tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+55 verbose lock tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package C:\Users\the.ufon\AppData\Roaming\npm-cache\25205c2d-61745-0-7825124266091734-package.lock
+56 silly lockFile c2aa2735-pm-cache-di-ts-0-0-1-package-tgz tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+57 verbose lock tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz C:\Users\the.ufon\AppData\Roaming\npm-cache\c2aa2735-pm-cache-di-ts-0-0-1-package-tgz.lock
+58 silly lockFile 25205c2d-61745-0-7825124266091734-package tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+59 silly lockFile 25205c2d-61745-0-7825124266091734-package tar://C:\Users\THE~1.UFO\AppData\Local\Temp\npm-6356-RPU3VxHi\1429345561745-0.7825124266091734\package
+60 silly lockFile c2aa2735-pm-cache-di-ts-0-0-1-package-tgz tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+61 silly lockFile c2aa2735-pm-cache-di-ts-0-0-1-package-tgz tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+62 silly lockFile 97f7d925-ng-npm-cache-di-ts-0-0-1-package C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package
+63 verbose lock C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package C:\Users\the.ufon\AppData\Roaming\npm-cache\97f7d925-ng-npm-cache-di-ts-0-0-1-package.lock
+64 silly lockFile 97f7d925-ng-npm-cache-di-ts-0-0-1-package C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package
+65 silly lockFile 97f7d925-ng-npm-cache-di-ts-0-0-1-package C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package
+66 verbose tar unpack C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+67 silly lockFile eace583b-ng-npm-cache-di-ts-0-0-1-package tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package
+68 verbose lock tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package C:\Users\the.ufon\AppData\Roaming\npm-cache\eace583b-ng-npm-cache-di-ts-0-0-1-package.lock
+69 silly lockFile c2aa2735-pm-cache-di-ts-0-0-1-package-tgz tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+70 verbose lock tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz C:\Users\the.ufon\AppData\Roaming\npm-cache\c2aa2735-pm-cache-di-ts-0-0-1-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+78 silly gunzTarPerm extractEntry Gruntfile.js
+79 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry di.d.ts
+81 silly gunzTarPerm modified mode [ 'di.d.ts', 438, 420 ]
+82 silly gunzTarPerm extractEntry index.ts
+83 silly gunzTarPerm modified mode [ 'index.ts', 438, 420 ]
+84 silly gunzTarPerm extractEntry spec/fixtures.ts
+85 silly gunzTarPerm modified mode [ 'spec/fixtures.ts', 438, 420 ]
+86 silly gunzTarPerm extractEntry spec/main.ts
+87 silly gunzTarPerm modified mode [ 'spec/main.ts', 438, 420 ]
+88 silly gunzTarPerm extractEntry tsd.json
+89 silly gunzTarPerm modified mode [ 'tsd.json', 438, 420 ]
+90 silly lockFile eace583b-ng-npm-cache-di-ts-0-0-1-package tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package
+91 silly lockFile eace583b-ng-npm-cache-di-ts-0-0-1-package tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package
+92 silly lockFile c2aa2735-pm-cache-di-ts-0-0-1-package-tgz tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+93 silly lockFile c2aa2735-pm-cache-di-ts-0-0-1-package-tgz tar://C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+94 verbose chmod C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz 644
+95 silly chown skipping for windows C:\Users\the.ufon\AppData\Roaming\npm-cache\di.ts\0.0.1\package.tgz
+96 silly lockFile 3a52ce78- .
+97 silly lockFile 3a52ce78- .
+98 silly publish { name: 'di.ts',
+98 silly publish   version: '0.0.1',
+98 silly publish   description: 'Lightweight wrap and extension of angular/di.js for TypeScript.',
+98 silly publish   main: 'index.js',
+98 silly publish   scripts: { test: 'node ./node_modules/mocha/bin/mocha ./spec/ --recursive --require reflect-metadata' },
+98 silly publish   keywords: [ 'dependency injection', 'di', 'typescript', 'di.js' ],
+98 silly publish   author: { name: 'Vaclav Obornik' },
+98 silly publish   license: 'ISC',
+98 silly publish   dependencies: { 'reflect-metadata': '0.0.3', di: '--tag v2' },
+98 silly publish   devDependencies:
+98 silly publish    { expectations: '^0.4.2',
+98 silly publish      grunt: '^0.4.5',
+98 silly publish      'grunt-bump': '^0.3.0',
+98 silly publish      mocha: '^2.2.4' },
+98 silly publish   repository:
+98 silly publish    { type: 'git',
+98 silly publish      url: 'https://github.com/VaclavObornik/di.ts.git' },
+98 silly publish   readme: '\r\n\r\n# Dependency Injection for Typescript\r\nLightweight wrap and extension of [angular/di.js](https://github.com/angular/di.js) for TypeScript.\r\n\r\n\r\n##Usage\r\n###car.ts\r\n```typescript\r\nimport {Inject} from \'di.ts\'\r\nimport {Engine} from \'./engine\'\r\n\r\n@Inject\r\nexport class Car {\r\n  constructor(public engine: Engine) {}\r\n}\r\n```\r\n\r\n###engine.ts\r\n```typescript\r\nimport {Injector} from \'di.ts\'\r\n\r\nexport class Engine {\r\n\r\n}\r\n\r\n@Provide(Engine)\r\nexport class MockEngine {\r\n\r\n}\r\n```\r\n\r\n###main.ts\r\n```typescript\r\nimport {Injector} from \'di.ts\'\r\nimport {Car} from \'./car\'\r\nimport {Engine, MockEngine} from \'./engine\'\r\n\r\n\r\nvar injector = new Injector();\r\nvar car: Car = injector.get(Car); //instantiate car\r\n\r\n//now car.engine is instance of Engine\r\n\r\n\r\nvar injector2 = new Injector([MockEngine]);\r\nvar car2: Car = injector2.get(Car); //instantiate car\r\n//now car.engine is instance of MockEngine! :)\r\n```\r\n\r\n\r\n\r\n',
+98 silly publish   readmeFilename: 'README.md',
+98 silly publish   bugs: { url: 'https://github.com/VaclavObornik/di.ts/issues' },
+98 silly publish   homepage: 'https://github.com/VaclavObornik/di.ts',
+98 silly publish   _id: 'di.ts@0.0.1',
+98 silly publish   dist: { shasum: 'bf22f2d3216bb7017c5d0454ce7c9fe571596852' },
+98 silly publish   _from: '.' }
+99 verbose url raw di.ts
+100 verbose url resolving [ 'https://registry.npmjs.org/', './di.ts' ]
+101 verbose url resolved https://registry.npmjs.org/di.ts
+102 info trying registry request attempt 1 at 10:26:01
+103 http PUT https://registry.npmjs.org/di.ts
+104 http 403 https://registry.npmjs.org/di.ts
+105 error publish Failed PUT 403
+106 error Error: "You cannot publish over the previously published version 0.0.1." : di.ts
+106 error     at RegClient.<anonymous> (C:\Program Files\nodist\bin\node_modules\npm\node_modules\npm-registry-client\lib\request.js:254:14)
+106 error     at Request._callback (C:\Program Files\nodist\bin\node_modules\npm\node_modules\npm-registry-client\lib\request.js:192:65)
+106 error     at Request.self.callback (C:\Program Files\nodist\bin\node_modules\npm\node_modules\request\request.js:123:22)
+106 error     at Request.emit (events.js:110:17)
+106 error     at Request.<anonymous> (C:\Program Files\nodist\bin\node_modules\npm\node_modules\request\request.js:893:14)
+106 error     at Request.emit (events.js:129:20)
+106 error     at IncomingMessage.<anonymous> (C:\Program Files\nodist\bin\node_modules\npm\node_modules\request\request.js:844:12)
+106 error     at IncomingMessage.emit (events.js:129:20)
+106 error     at _stream_readable.js:908:16
+106 error     at process._tickCallback (node.js:355:11)
+107 error If you need help, you may report this *entire* log,
+107 error including the npm and node versions, at:
+107 error     <http://github.com/npm/npm/issues>
+108 error System Windows_NT 6.3.9600
+109 error command "C:\\Program Files\\nodist/v/0.12.0/node.exe" "C:\\Program Files\\nodist\\bin\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+110 error cwd C:\javascript\di.ts
+111 error node -v v0.12.0
+112 error npm -v 1.4.6
+113 verbose exit [ 1, true ]
