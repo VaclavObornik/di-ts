@@ -1,7 +1,5 @@
 
 
-# NOT WORKING YET
-
 # Dependency Injection for Typescript
 Lightweight wrap and extension of [angular/di.js](https://github.com/angular/di.js) for TypeScript.
 
@@ -34,6 +32,8 @@ export class MockEngine {
 
 ### main.ts
 ```typescript
+/// <reference path="node_modules/di-ts/index.d.ts"/>
+
 import {Injector} from 'di-ts'
 import {Car} from './car'
 import {Engine, MockEngine} from './engine'
