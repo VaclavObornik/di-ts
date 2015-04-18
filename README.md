@@ -4,7 +4,17 @@
 Lightweight wrap and extension of [angular/di.js](https://github.com/angular/di.js) for TypeScript.
 
 
+## Install
+````bash
+npm install di-ts
+````
+
 ## Usage
+
+You need to use --emitDecoratorMetadata flag when compile you typescript files. This flag is not supported
+in the last released version of TypeScript, you need to download and use last commit of 
+[master branch](https://github.com/Microsoft/TypeScript/tree/master)
+
 ### car.ts
 ```typescript
 import {Inject} from 'di-ts'
