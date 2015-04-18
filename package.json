@@ -1,0 +1,27 @@
+{
+  "name": "di.ts",
+  "version": "0.0.1",
+  "description": "Lightweight cover of di.js for typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha ./spec/ --recursive --require reflect-metadata"
+  },
+  "keywords": [
+    "dependency injection",
+    "di",
+    "typescript",
+    "di.js"
+  ],
+  "author": "Vaclav Obornik",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "0.0.3",
+    "di": "--tag v2"
+  },
+  "devDependencies": {
+    "expectations": "^0.4.2",
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.3.0",
+    "mocha": "^2.2.4"
+  }
+}
