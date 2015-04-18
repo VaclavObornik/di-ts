@@ -5,3 +5,4 @@ node_modules
 typings
 
 !Gruntfile.js
+!index.js
