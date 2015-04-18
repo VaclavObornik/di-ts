@@ -34,10 +34,18 @@ export class MockEngine {
 ```typescript
 import {Injector} from 'di.ts'
 import {Car} from './car'
+import {Engine, MockEngine} from './engine'
 
-//instantiate car
+
 var injector = new Injector();
-var car: Car = injector.get(Car);
+var car: Car = injector.get(Car); //instantiate car
+
+//now car.engine is instance of Engine
+
+
+var injector2 = new Injector([MockEngine]);
+var car2: Car = injector2.get(Car); //instantiate car
+//now car.engine is instance of MockEngine! :)
 ```
 
 

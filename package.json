@@ -1,7 +1,7 @@
 {
   "name": "di.ts",
   "version": "0.0.1",
-  "description": "Lightweight cover of di.js for typescript",
+  "description": "Lightweight wrap and extension of angular/di.js for TypeScript.",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha ./spec/ --recursive --require reflect-metadata"
