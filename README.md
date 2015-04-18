@@ -1,13 +1,13 @@
 
 
-#NOT WORKING YET
+# NOT WORKING YET
 
 # Dependency Injection for Typescript
 Lightweight wrap and extension of [angular/di.js](https://github.com/angular/di.js) for TypeScript.
 
 
-##Usage
-###car.ts
+## Usage
+### car.ts
 ```typescript
 import {Inject} from 'di.ts'
 import {Engine} from './engine'
@@ -18,7 +18,7 @@ export class Car {
 }
 ```
 
-###engine.ts
+### engine.ts
 ```typescript
 import {Injector} from 'di.ts'
 
@@ -32,7 +32,7 @@ export class MockEngine {
 }
 ```
 
-###main.ts
+### main.ts
 ```typescript
 import {Injector} from 'di.ts'
 import {Car} from './car'
