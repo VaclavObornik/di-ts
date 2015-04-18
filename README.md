@@ -13,7 +13,7 @@ npm install di-ts
  
 You need to use --emitDecoratorMetadata flag when compile you typescript files. This flag is not supported
 in the last released version of TypeScript, you need to download and use last commit of 
-[master branch](https://github.com/Microsoft/TypeScript/tree/master)
+[master branch](https://github.com/Microsoft/TypeScript/tree/master).
 
 ### car.ts
 ```typescript
