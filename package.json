@@ -1,5 +1,5 @@
 {
-  "name": "di.ts",
+  "name": "di-ts",
   "version": "0.0.5",
   "description": "Lightweight wrap and extension of angular/di.js for TypeScript.",
   "main": "index.js",
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/VaclavObornik/di.ts.git"
+    "url" : "https://github.com/VaclavObornik/di-ts.git"
   }
 }

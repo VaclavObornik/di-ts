@@ -9,7 +9,7 @@ Lightweight wrap and extension of [angular/di.js](https://github.com/angular/di.
 ## Usage
 ### car.ts
 ```typescript
-import {Inject} from 'di.ts'
+import {Inject} from 'di-ts'
 import {Engine} from './engine'
 
 @Inject
@@ -20,7 +20,7 @@ export class Car {
 
 ### engine.ts
 ```typescript
-import {Injector} from 'di.ts'
+import {Injector} from 'di-ts'
 
 export class Engine {
 
@@ -34,7 +34,7 @@ export class MockEngine {
 
 ### main.ts
 ```typescript
-import {Injector} from 'di.ts'
+import {Injector} from 'di-ts'
 import {Car} from './car'
 import {Engine, MockEngine} from './engine'
 
