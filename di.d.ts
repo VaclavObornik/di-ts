@@ -9,7 +9,7 @@ declare module di {
     constructor();
     constructor(locals: any[]);
     constructor(locals: any[], parent: Injector);
-    get(classFunc: IClassInterface<T>): T;
+    get<T>(classFunc: IClassInterface<T>): T;
   }
 
 }
