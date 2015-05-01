@@ -1,6 +1,6 @@
 {
   "name": "di-ts",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Lightweight wrap and extension of angular/di.js for TypeScript.",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   "author": "Vaclav Obornik",
   "license": "ISC",
   "dependencies": {
-    "reflect-metadata": "0.0.3",
-    "di": "--tag v2"
+    "di": "^2.0.0-pre-14",
+    "reflect-metadata": "^0.1.0"
   },
   "devDependencies": {
     "expectations": "^0.4.2",
@@ -25,7 +25,7 @@
     "mocha": "^2.2.4"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/VaclavObornik/di-ts.git"
+    "type": "git",
+    "url": "https://github.com/VaclavObornik/di-ts.git"
   }
 }

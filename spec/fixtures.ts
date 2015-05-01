@@ -3,13 +3,15 @@
 import {Inject, Provide} from '../index'
 
 
-@Inject
-export class Car {
-  constructor(public engine: Engine) {}
-}
+
 
 export class Engine {
 
+}
+
+@Inject
+export class Car {
+  constructor(public engine: Engine) {}
 }
 
 @Provide(Engine)
