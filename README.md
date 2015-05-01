@@ -12,7 +12,7 @@ npm install di-ts
 ## Usage
  
 You need to use --emitDecoratorMetadata flag when compile you typescript files. 
-"--emitDecoratorMetadata" flag is supported by the 1.5 Beta version of TypeScript.
+"emitDecoratorMetadata" flag is supported by the 1.5 beta version of TypeScript.
 
 ### car.ts
 ```typescript
