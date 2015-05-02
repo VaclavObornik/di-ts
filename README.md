@@ -27,7 +27,7 @@ export class Car {
 
 ### engine.ts
 ```typescript
-import {Injector} from 'di-ts'
+import {Provide} from 'di-ts'
 
 export class Engine {
 
