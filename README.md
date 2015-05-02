@@ -61,8 +61,3 @@ var car2: Car = injector2.get(Car); //instantiate car, car.engine is instance of
 ```
 
 
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/VaclavObornik/di-ts/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
