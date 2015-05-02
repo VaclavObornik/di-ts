@@ -12,6 +12,17 @@ declare module di {
     get<T>(classFunc: IClassInterface<T>): T;
   }
 
+  export class Inject {
+    constructor(injectableClass: IClassInterface<any>);
+  }
+
+  export class Provide {
+    constructor(providedClass: IClassInterface<any>);
+  }
+
+  export function annotate<T>(classFunc: IClassInterface<T>, ...dependencies: Inject[]): void;
+  export function annotate<T>(classFunc: IClassInterface<T>, ...dependencies: Provide[]): void;
+
 }
 
 declare module "di" {
