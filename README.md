@@ -35,6 +35,7 @@ export class Engine {
 ### mockEngine.ts
 ```typescript
 import {Provide} from 'di-ts'
+import {Engine} from './engine'
 
 @Provide(Engine)
 export class MockEngine {
