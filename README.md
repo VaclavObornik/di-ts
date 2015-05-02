@@ -27,11 +27,14 @@ export class Car {
 
 ### engine.ts
 ```typescript
-import {Provide} from 'di-ts'
-
 export class Engine {
 
 }
+```
+
+### mockEngine.ts
+```typescript
+import {Provide} from 'di-ts'
 
 @Provide(Engine)
 export class MockEngine {
@@ -45,13 +48,13 @@ export class MockEngine {
 
 import {Injector} from 'di-ts'
 import {Car} from './car'
-import {Engine, MockEngine} from './engine'
-
+import {Engine} from './engine'
 
 var injector = new Injector();
 var car: Car = injector.get(Car); //instantiate car, car.engine is magically instance of Engine! :)
 
 
+import {MockEngine} from './mockEngine'
 var injector2 = new Injector([MockEngine]);
 var car2: Car = injector2.get(Car); //instantiate car, car.engine is instance of MockEngine! :)
 ```

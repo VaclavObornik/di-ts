@@ -1,6 +1,6 @@
 {
   "name": "di-ts",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "Lightweight wrap and extension of angular/di.js for TypeScript.",
   "main": "index.js",
   "scripts": {
