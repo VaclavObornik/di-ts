@@ -1,7 +1,7 @@
 
 
 # Dependency Injection for Typescript
-Lightweight wrap and extension of [angular/di.js](https://github.com/angular/di.js) for TypeScript.
+Lightweight wrap and extension of [di.js](https://github.com/angular/di.js) for TypeScript.
 
 
 ## Install
