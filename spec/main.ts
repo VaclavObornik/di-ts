@@ -1,7 +1,6 @@
 /// <reference path="../typings/mocha/mocha.d.ts"/>
-/// <reference path="./typings/expectations.d.ts"/>
+/// <reference path="../typings/expectations/expectations.d.ts"/>
 import 'expectations'
-
 
 import {Injector} from '../index'
 import {Engine, MockEngine, Car} from './fixtures'
