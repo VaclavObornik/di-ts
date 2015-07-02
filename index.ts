@@ -5,13 +5,19 @@
 import 'reflect-metadata';
 import * as di from 'di'
 
-
 export var Injector = di.Injector;
+
+function factory(data: Array<any>) : di.Inject {
+  function F() : void {
+    di.Inject.apply(this, data);
+  }
+  F.prototype = di.Inject.prototype;
+  return new F();
+}
 
 export function Inject(classFunc: any) {
   const dependencies = Reflect.getMetadata("design:paramtypes", classFunc) || [];
-  var annotateArgs = [classFunc].concat(dependencies.map((dep: any) => new di.Inject(dep)));
-  di.annotate.apply(di, annotateArgs);
+  di.annotate(classFunc, factory(dependencies));
 }
 
 export function Provide(targetClassFunc: any) {

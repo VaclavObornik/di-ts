@@ -3,10 +3,16 @@
 require('reflect-metadata');
 var di = require('di');
 exports.Injector = di.Injector;
+function factory(data) {
+    function F() {
+        di.Inject.apply(this, data);
+    }
+    F.prototype = di.Inject.prototype;
+    return new F();
+}
 function Inject(classFunc) {
     var dependencies = Reflect.getMetadata("design:paramtypes", classFunc) || [];
-    var annotateArgs = [classFunc].concat(dependencies.map(function (dep) { return new di.Inject(dep); }));
-    di.annotate.apply(di, annotateArgs);
+    di.annotate(classFunc, factory(dependencies));
 }
 exports.Inject = Inject;
 function Provide(targetClassFunc) {

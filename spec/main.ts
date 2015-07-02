@@ -1,10 +1,9 @@
 /// <reference path="../typings/mocha/mocha.d.ts"/>
-/// <reference path="./typings/expectations.d.ts"/>
+/// <reference path="../typings/expectations/expectations.d.ts"/>
 import 'expectations'
 
-
 import {Injector} from '../index'
-import {Engine, MockEngine, Car} from './fixtures'
+import {Engine, MockEngine, Car, Doors} from './fixtures'
 
 describe("di.ts", () => {
 
@@ -15,7 +14,7 @@ describe("di.ts", () => {
     expect(engine instanceof Engine).toBeTruthy();
   });
 
-  it("should instatiate a class with dependency", () => {
+  it("should instantiate a class with dependency", () => {
     var injector = new Injector();
     var car: Car = injector.get(Car);
 
@@ -23,7 +22,18 @@ describe("di.ts", () => {
     expect(car.engine instanceof Engine).toBeTruthy();
   });
 
-  it("should instatiate a class with mocked dependency", () => {
+  it("should instantiate a class with multiple dependencies", () => {
+
+    var injector = new Injector();
+    var car: Car = injector.get(Car);
+
+    expect(car instanceof Car).toBeTruthy();
+    expect(car.engine instanceof Engine).toBeTruthy();
+    expect(car.doors instanceof Doors).toBeTruthy();
+
+  });
+
+  it("should instantiate a class with mocked dependency", () => {
     var injector = new Injector([MockEngine]);
     var car: Car = injector.get(Car);
 

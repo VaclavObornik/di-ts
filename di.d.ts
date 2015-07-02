@@ -13,7 +13,7 @@ declare module di {
   }
 
   export class Inject {
-    constructor(injectableClass: IClassInterface<any>);
+    constructor(...injectableClasses: Array<IClassInterface<any>>);
   }
 
   export class Provide {

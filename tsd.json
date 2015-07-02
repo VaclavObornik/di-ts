@@ -10,6 +10,9 @@
     },
     "mocha/mocha.d.ts": {
       "commit": "52fa2b9ce36f2c5843204e9bfbaada7cded9b47a"
+    },
+    "expectations/expectations.d.ts": {
+      "commit": "c7b1128cc9a8f5797bade826e7632b36b06a856c"
     }
   }
 }
