@@ -1,6 +1,6 @@
 {
   "name": "di-ts",
-  "version": "0.0.30", 
+  "version": "0.0.30",
   "description": "Lightweight wrap and extension of di.js v2 for TypeScript.",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/VaclavObornik/di-ts.git"
+  },
+  "typescript": {
+    "definition": "di-ts.d.ts"
   }
 }

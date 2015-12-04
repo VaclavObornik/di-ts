@@ -1,7 +1,3 @@
-
-/// <reference path="node_modules/reflect-metadata/reflect-metadata.d.ts"/>
-/// <reference path="./di.d.ts"/>
-
 import 'reflect-metadata';
 import * as di from 'di'
 
@@ -25,5 +21,3 @@ export function Provide(targetClassFunc: any) {
     di.annotate(classFunc, new di.Provide(targetClassFunc));
   };
 }
-
-
