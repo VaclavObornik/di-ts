@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false
+  },
+  "files": [
+    "di-ts.d.ts",
+    "index.ts",
+    "spec/fixtures.ts",
+    "spec/main.ts"
+  ]
+}
