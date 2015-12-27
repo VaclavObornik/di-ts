@@ -1,5 +1,5 @@
-/// <reference path="../typings/mocha/mocha.d.ts"/>
-/// <reference path="../typings/expectations/expectations.d.ts"/>
+/// <reference path="../typings/tsd.d.ts"/>
+
 import 'expectations'
 
 import {Injector} from '../index'

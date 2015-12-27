@@ -1,3 +1,5 @@
+/// <reference path="./di.d.ts"/>
+/// <reference path="./node_modules/reflect-metadata/reflect-metadata.d.ts"/>
 require('reflect-metadata');
 var di = require('di');
 exports.Injector = di.Injector;
@@ -19,3 +21,4 @@ function Provide(targetClassFunc) {
     };
 }
 exports.Provide = Provide;
+//# sourceMappingURL=index.js.map
